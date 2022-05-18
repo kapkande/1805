@@ -1,0 +1,115 @@
+a {
+    text-decoration: none;
+}
+.wrapper {
+    max-width: 1185px;
+    display: flex;
+    justify-content: space-between;
+    margin: 22px auto 0 auto;
+    
+
+}
+.main {
+    margin-top: 12px ;
+    width: 50%;
+}
+.menu {
+    
+}
+nav a {}
+.menu__img {
+    font-size: 16px;
+    color: #333740;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    
+}
+
+nav:first-letter {
+    font-size: 20px;
+    color: #18a3dd;
+}
+
+.menu__link {
+    color: #333740;
+}
+
+
+.title {
+}
+.title__line {
+}
+.title__text {
+}
+.title__slogan {
+}
+.text {
+}
+
+
+
+.btn-row {
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   max-width: 397px;
+   font-size: 14px;
+   
+}
+
+.btn-row__link {
+    background-color: #18a3dd;
+    padding: 17.5px 43px;
+    border-radius: 40px;
+    transition: all .4s;
+}
+.btn-row__link a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;  
+    font-size: 16px;
+}
+.btn-row__link:hover {
+    color: #40a0ca;
+    background-color: #333740;
+    transition: all .4s;
+}
+.btn-row__dropdown {
+    display: flex;
+    align-items: stretch;
+    flex: 1 0 145px;
+    align-items: center
+}
+.btn-row__open{
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    transition: all .4s;
+}
+.btn-row__open:hover {
+    color:#18a3dd;
+    transition: all .5s;
+}
+.btn-row__img {
+    fill: #18a3dd;
+}
+
+
+.image {  
+    padding-left: 150px;
+    background-image: url("1.png");
+    background-position: 0% 36.3%;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.image__img {
+    padding-right: 150px;
+    background-image: url("2.png");
+    background-position: 100% 65%;
+    /* background-position: 104.5% 69.8%; */
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+}
