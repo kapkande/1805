@@ -190,7 +190,7 @@
     }
     
     .image::before {
-        content: url("/img/1.png");
+        content: url("../img/1.png");
         top: 29.6%;
         right: 85.6%;
         position: absolute;
@@ -198,7 +198,7 @@
     }
     
     .image::after {
-        content: url("/img/2.png");
+        content: url("../img/2.png");
         top: 43.3%;
         left: 97.8%;
         position: absolute;
